@@ -45,13 +45,13 @@ body {
 
 .header-link {
   text-decoration: none;
-  border-bottom: 3.5px solid var(--eucalyptus);
+  border-bottom: 0.35rem solid var(--eucalyptus);
   font-family: var(--manrope);
   font-weight: var(--fw700);
   font-size: 1.6rem;
   line-height: 3.2rem;
   color: var(--white);
-  letter-spacing: -0.16px;
+  letter-spacing: -0.016rem;
 }
 
 /******** HERO SECTION ********/
@@ -67,7 +67,7 @@ body {
 
 .tailored-text {
   display: inline-block;
-  border-bottom: 3.5px solid var(--eucalyptus);
+  border-bottom: 0.35rem solid var(--eucalyptus);
 }
 
 .btn {
@@ -77,7 +77,7 @@ body {
   font-weight: var(--fw700);
   font-size: 1.6rem;
   line-height: 3.2rem;
-  letter-spacing: -0.16px;
+  letter-spacing: -0.016rem;
   text-align: center;
   background-color: var(--eucalyptus);
   border: none;
@@ -88,8 +88,8 @@ body {
 
 .hero-section {
   border-radius: 50% / 5%;
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
   position: relative;
   padding-bottom: 13rem;
 }
@@ -112,8 +112,8 @@ body {
   /* padding: 17.5rem 1.6rem 7.1rem; */
   padding: 46.6% 1.6rem 7.1rem;
   border-radius: 50% / 3%;
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
   margin-top: -1.5rem;
 }
 
@@ -130,7 +130,7 @@ body {
   width: 4.4rem;
   height: 4.2rem;
   border-radius: 50%;
-  border: 1.2px solid var(--darkPurple);
+  border: 0.12rem solid var(--darkPurple);
   margin-bottom: 2.4rem;
 }
 
@@ -248,7 +248,7 @@ body {
   cursor: pointer;
   background-color: var(--darkPurple);
   color: var(--eucalyptus);
-  box-shadow: 0px 0px 0px 2px var(--eucalyptus);
+  box-shadow: 0 0 0 0.2rem var(--eucalyptus);
 }
 
 .social-media-icon path:is(:hover, :focus) {
@@ -288,8 +288,8 @@ body {
   .hero-section {
     padding-bottom: 20.3rem;
     border-radius: 100% / 20%;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
     position: relative;
   }
 
@@ -302,16 +302,16 @@ body {
     content: url("starter-code/assets/images/bg-pattern-1.svg");
     max-width: 100%;
     position: absolute;
-    top: -46px;
-    left: -227px;
+    top: -4.6rem;
+    left: -22.7rem;
   }
 
   .hero-btn::after {
     content: url("starter-code/assets/images/bg-pattern-2.svg");
     max-width: 100%;
     position: absolute;
-    top: 130px;
-    right: -95px;
+    top: 130rem;
+    right: -9.5rem;
   }
 
   /******* FEATURES SECTION *****/
@@ -319,8 +319,8 @@ body {
     margin-top: -4rem;
     padding: 25.3rem 9.8rem 10.3rem;
     border-radius: 100% / 10%;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
     gap: 4.8rem;
   }
 
@@ -370,8 +370,8 @@ body {
     padding: 4.8rem 5.6rem 5.6rem;
     width: 51.4rem;
     height: 37.5rem;
-    top: -75px;
-    left: 175px;
+    top: -7.5rem;
+    left: 17.5rem;
   }
 
   .apply-header {
@@ -393,8 +393,8 @@ body {
     content: url("starter-code/assets/images/bg-pattern-3.svg");
     max-width: 100%;
     position: relative;
-    top: -50px;
-    left: 225px;
+    top: -5rem;
+    left: 22.5rem;
   }
 
   /************ FOOTER **********/
@@ -415,7 +415,7 @@ body {
 
   .header-link {
     font-size: 1.8rem;
-    letter-spacing: -0.18px;
+    letter-spacing: -0.018rem;
   }
 
   /********* HERO SECTION ********/
@@ -427,15 +427,15 @@ body {
 
   .btn {
     font-size: 1.8rem;
-    letter-spacing: -0.18px;
+    letter-spacing: -0.018rem;
     padding: 1.4rem 2.8rem;
   }
 
   .hero-section {
     padding-bottom: 32.6rem;
     border-radius: 60% / 15%;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
   }
 
   .hero-img {
@@ -445,13 +445,13 @@ body {
   }
 
   .hero-text::after {
-    top: -30px;
-    left: -140px;
+    top: -3rem;
+    left: -14rem;
   }
 
   .hero-btn::after {
-    top: 155px;
-    right: -48px;
+    top: 15.5rem;
+    right: -4.8rem;
   }
 
   /******* FEATURES SECTION ******/
@@ -459,8 +459,8 @@ body {
     margin-top: -10rem;
     padding: 35.5rem 16.1rem 17.1rem 16.5rem;
     border-radius: 60% / 11%;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
   }
 
   .features-section-container {
@@ -522,8 +522,8 @@ body {
     width: 73rem;
     height: 41.3rem;
     padding: 6.4rem;
-    top: -250px;
-    left: 379px;
+    top: -25rem;
+    left: 37.9rem;
   }
 
   .apply-header {
@@ -539,8 +539,8 @@ body {
   }
 
   .apply-container::after {
-    top: -85px;
-    left: 375px;
+    top: -8.5rem;
+    left: 37.5rem;
   }
 
   .apply-btn {
